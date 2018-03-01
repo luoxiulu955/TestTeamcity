@@ -23,6 +23,10 @@ object TestTeamcity_Build : BuildType({
             name = "Build1"
             scriptContent = """echo "build1""""
         }
+        script {
+            name = "Build2"
+            scriptContent = """echo "pull test 3""""
+        }
     }
 
     triggers {
