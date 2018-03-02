@@ -100,5 +100,13 @@
       <version>${kotlin.version}</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
   </dependencies>
+
+  <sourceDirectory>TestTeamcity</sourceDirectory>
+  <testSourceDirectory>Tests</testSourceDirectory>
 </project>
