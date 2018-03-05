@@ -28,8 +28,8 @@ object TestTeamcity_Build : BuildType({
             scriptContent = """echo "build2""""
         }
         script {
-            name = "Build3"
-            scriptContent = """echo "build3""""
+            name = "Build4"
+            scriptContent = """echo "build4""""
         }
         script{
             name = "cd Build4"
