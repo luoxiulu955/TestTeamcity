@@ -28,11 +28,8 @@ object TestTeamcity_Build : BuildType({
             scriptContent = """echo "build2""""
         }
         script {
-            name = "Build3"
-            scriptContent = """echo "build3""""
-        }
-        script{
-            name = 
+            name = "branch test-v1 test1 "
+            scriptContent = """echo "test-v1" && makdir test-v1"""
         }
     }
 
