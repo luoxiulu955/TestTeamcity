@@ -1,6 +1,7 @@
 package TestBranch.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
+import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2017_2.triggers.vcs
 
 object TestBranch_BuildBranchTest : BuildType({
@@ -11,6 +12,17 @@ object TestBranch_BuildBranchTest : BuildType({
     vcs {
         root(TestBranch.vcsRoots.TestBranch_TestV1)
 
+    }
+
+    steps {
+        script {
+            name = "Step1"
+            scriptContent = """
+                echo "branch test"
+                a=1+1
+                echo a
+            """.trimIndent()
+        }
     }
 
     triggers {
