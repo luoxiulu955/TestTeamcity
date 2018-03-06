@@ -12,6 +12,7 @@ object TestTeamcity_Build : BuildType({
     vcs {
         root(TestTeamcity.vcsRoots.TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster)
         root(TestTeamcity.vcsRoots.TestTeamcity_Git)
+        root(TestTeamcity.vcsRoots.TestTeamcity_Branch1)
 
     }
 
