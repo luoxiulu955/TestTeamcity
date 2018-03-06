@@ -16,8 +16,8 @@ object TestTeamcity_Build : BuildType({
 
     steps {
         script {
-            name = "test1"
-            scriptContent = """mkdir test1"""
+            name = "Build1"
+            scriptContent = """echo "build1" && mkdir P1"""
         }
     }
 
