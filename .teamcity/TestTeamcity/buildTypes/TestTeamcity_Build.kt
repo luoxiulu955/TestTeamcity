@@ -18,23 +18,7 @@ object TestTeamcity_Build : BuildType({
     steps {
         script {
             name = "test1"
-            scriptContent = """echo "test1""""
-        }
-        script {
-            name = "Build1"
-            scriptContent = """echo "build1""""
-        }
-        script {
-            name = "Build2"
-            scriptContent = """echo "build2""""
-        }
-        script {
-            name = "Build4"
-            scriptContent = """echo "build4""""
-        }
-        script {
-            name = "cd Build4"
-            scriptContent = """echo "build4""""
+            scriptContent = """a=1+1 && echo a"""
         }
     }
 
