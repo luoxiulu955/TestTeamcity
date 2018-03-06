@@ -5,12 +5,12 @@ import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2017_2.triggers.vcs
 
 object TestTeamcity_Build : BuildType({
-    uuid = "ea1472f1-7fd7-4740-89f5-f0804de00076"
-    id = "TestTeamcity_Build"
-    name = "Build"
+    uuid = "testteamcity-testv1-test"
+    id = "TestTeamcity_Testv1_Build"
+    name = "Testv1_Build"
 
     vcs {
-        root(TestTeamcity.vcsRoots.TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster)
+        root(TestTeamcity.vcsRoots.TestTeamcity_Git)
 
     }
 

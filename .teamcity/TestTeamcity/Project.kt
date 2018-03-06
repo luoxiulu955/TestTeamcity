@@ -12,6 +12,7 @@ object Project : Project({
     name = "TestTeamcity"
 
     vcsRoot(TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster)
+    vcsRoot(TestTeamcity_Git)
 
     buildType(TestTeamcity_Build)
 })
