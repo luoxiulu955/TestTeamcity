@@ -11,6 +11,7 @@ object TestTeamcity_Build : BuildType({
 
     vcs {
         root(TestTeamcity.vcsRoots.TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster)
+        root(TestTeamcity.vcsRoots.TestTeamcity_Git)
 
     }
 
@@ -31,7 +32,7 @@ object TestTeamcity_Build : BuildType({
             name = "Build4"
             scriptContent = """echo "build4""""
         }
-        script{
+        script {
             name = "cd Build4"
             scriptContent = """echo "build4""""
         }

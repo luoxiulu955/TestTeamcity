@@ -8,9 +8,8 @@ object TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster : GitVc
     id = "TestTeamcity_HttpsGithubComLuoxiulu955TestTeamcityRefsHeadsMaster"
     name = "https://github.com/luoxiulu955/TestTeamcity#refs/heads/master"
     url = "https://github.com/luoxiulu955/TestTeamcity"
-    branchSpec = "+:refs/pull/*/head"
     authMethod = password {
         userName = "luoxiulu955"
-        password = "credentialsJSON:c1e97dd6-7ae8-4a80-9d4e-b0031923d25b"
+        password = "credentialsJSON:d276e0b0-57a2-4f31-a883-6e2ee2c7f56d"
     }
 })
